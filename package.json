@@ -1,7 +1,7 @@
 {
-  "name": "Caproomster",
+  "name": "bc-commerce",
   "version": "1.0.0",
-  "description": "SOEN 344 Caproomster",
+  "description": "Bruce Cai Freelance",
   "author": "Zhipeng Bruce Cai <https://github.com/choitwao>",
   "scripts": {
     "setup": "npm install && bower install && npm install rimraf -g",

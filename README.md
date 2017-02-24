@@ -1,4 +1,4 @@
-# capRoomster 
+# bc-commerce 
 
 ## File Structure
 
@@ -14,9 +14,9 @@
 ----------+ component.service.js
 ----------+ component.factory.js
 ----------+ component.model.js
------+ capRoomster.module.js
------+ capRoomster.config.js
------+ capRoomster.scss
+-----+ bc-commerce.module.js
+-----+ bc-commerce.config.js
+-----+ bc-commerce.scss
 -----+ index.html
 - /test
 -----+ test.comfig.js
