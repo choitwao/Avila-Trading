@@ -1,9 +1,12 @@
 (function(angular) {
+
 	'use strict';
+
 	angular.module('avila').config([
 		'$stateProvider',
 		'$urlRouterProvider',
 		function($stateProvider, $urlRouterProvider) {
+
 			$stateProvider.state('avila', {
 				abstract: true,
 				views: {
@@ -12,6 +15,7 @@
 					}
 				}
 			});
+
 			$stateProvider.state('avila.home', {
 				url: '/',
 				views: {
@@ -20,7 +24,10 @@
 					}
 				}
 			});
+
 			$urlRouterProvider.otherwise('/');
+
 		}
 	]);
+
 })(angular);

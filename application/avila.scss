@@ -1,22 +1,8 @@
-// Color Scheme
-
-// Size Scheme
-
-$headerheight: 100px;
-
-// Generic Styling
-
-html, body {
-    min-height: 100vh;
+html, body, .body-container, .main{
+    width: 100%;
     height: 100%;
-    margin: 0;
-    padding: 0;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-header {
-    height: $headerheight;
-    background-color: #fff;
-    border-bottom: 1px solid #ddd;
+p, h1, h2, h3 {
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 }
-

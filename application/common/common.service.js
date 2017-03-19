@@ -1,4 +1,5 @@
 (function(angular) {
+
     'use strict';
 
     angular.module('avila.common').service('avila.common.CommonService', CommonService);
@@ -11,5 +12,7 @@
         function setPageTitle(title) {
             $window.document.title = title;
         }
+
     }
+
 })(angular);
