@@ -2,6 +2,6 @@
 
   'use strict';
 
-  angular.module('avila.common', []);
+  angular.module('avila.home', []);
 
 })(angular);

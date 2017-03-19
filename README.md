@@ -1,4 +1,4 @@
-# bc-commerce 
+# Avila Trading Official Website
 
 ## File Structure
 
@@ -14,12 +14,12 @@
 ----------+ component.service.js
 ----------+ component.factory.js
 ----------+ component.model.js
------+ bc-commerce.module.js
------+ bc-commerce.config.js
------+ bc-commerce.scss
+-----+ avila.module.js
+-----+ avila.config.js
+-----+ avila.scss
 -----+ index.html
 - /test
------+ test.comfig.js
+-----+ test.config.js
 -----+ component
 ----------+ component.component.test.js
 ----------+ component.controller.test.js
@@ -31,23 +31,25 @@
 - README.md
 ```
 
-## Developing Commands
+## CLI
 
 ### Project Setup
 
-- `npm run setup` to set up the project
-- `npm run reset` to reset the project
+- `npm install` to set up the project
+- `npm run uninstall` to reset the project
 
 ### Build Application
 
-- `npm run package` to build the web application into `dist` folder
+- `npm run pack` to build the web application into `dist` folder
 
 ### Development
 
-- `npm run package` to package the application into `dist` folder
+- `npm run pack` to package the application into `dist` folder
 - `npm run clean` to delete build folders
-- `npm run start` to run the application on Chrome
+- `npm run start` to run the application on a web browser, on localhost:8080
 - `npm run test` to run unit tests
+- `npm run check` to check syntax and format error
+- `npm run check:fix` to automatically fix syntax error
 
 ## Documentation Reference
 

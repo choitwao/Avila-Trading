@@ -1,7 +1,7 @@
 dependencies:
   override:
     - npm config set registry http://registry.npmjs.org/
-    - npm run setup
+    - npm install
 
 test:
   override:

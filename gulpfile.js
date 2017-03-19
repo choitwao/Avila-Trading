@@ -39,7 +39,8 @@
       'css',
       'js',
       'html',
-      'static',
+      'font',
+      'asset',
       'test',
       callback
     );
@@ -54,17 +55,11 @@
 
   /** Static **/
 
-  gulp.task('static', function() {
+  gulp.task('font', function() {
     return gulp.src([
       'application/**/*.eot',
       'application/**/*.woff',
       'application/**/*.ttf',
-      'application/**/*.svg',
-      'application/**/*.png',
-      'application/**/*.jpg',
-      'application/**/*.jpeg',
-      'application/**/*.svg',
-      'application/**/*.pdf',
       'bower_components/font-awesome/**/*.otf',
       'bower_components/font-awesome/**/*.eot',
       'bower_components/font-awesome/**/*.woff',
@@ -74,6 +69,19 @@
     ])
     .pipe(rename({dirname: ''}))
     .pipe(gulp.dest('dist/fonts/'));
+  });
+
+  gulp.task('asset', function() {
+    return gulp.src([
+      'application/**/*.svg',
+      'application/**/*.png',
+      'application/**/*.jpg',
+      'application/**/*.jpeg',
+      'application/**/*.svg',
+      'application/**/*.pdf'
+    ])
+    .pipe(rename({dirname: ''}))
+    .pipe(gulp.dest('dist/image/'));
   });
 
   /** CSS **/
@@ -136,7 +144,7 @@
       '.temp/js/app.js'
     ])
     .pipe(concat('application.js'))
-    .pipe(uglify().on('error', gutil.log))
+    //.pipe(uglify().on('error', gutil.log))
     .pipe(rename({
       extname: '.min.js'
     }))

@@ -2,13 +2,13 @@
 
 (function(angular) {
 
-    'use strict';
+  'use strict';
 
     /* make sure follow the format: APP_[STATE]_[TEXT] */
-    angular.module('avila.common').constant('avila.common.LanguageConstant', {
-        EN: {
-        }
-    });
+  angular.module('avila.common').constant('avila.common.LanguageConstant', {
+    EN: {
+    }
+  });
 
 })(angular);
 
