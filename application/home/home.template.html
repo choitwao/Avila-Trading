@@ -1,2 +1,34 @@
-<div class="">
+<div class="home-page">
+    <div class="container-fluid row showcase-bar"></div>
+    <div class="container showcase">
+        <div class="showcase-title">
+            <h1>Eat Happily. Eat at ease. Eat Canadian.</h1>
+        </div>
+    </div>
+    <div class="container introduction">
+        <div class="description">
+            <p>Avila Trading Ltd. is based in Montreal, Canada which gives it a logistical and linguistic advantage for the company to easily connect and develop long-term business relationships with Canadian producers from both the West and East coast.</p>
+        </div>
+        <div class="row">
+            <div class="col-md-4 intro" ng-repeat="intro in vm.intro">
+            <h2>{{ intro.title }}</h2>
+            <img ng-src="/image/{{ intro.image }}"/>
+            <div class="intro-text">
+                <p>{{ intro.description}}</p>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="container catalog">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="/image/catalog.jpg"/>
+            </div>
+            <div class="col-md-6">
+                <h2>Check our product catalog</h2>
+                <p>Discover the quality of our best ingredients</p>
+                <a href="/image/catalogue.pdf" download>Download Catalog</a>
+            </div>
+        </div>
+    </div>
 </div>

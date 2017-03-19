@@ -1,3 +1,84 @@
 @import "../avila.scss";
 
+.home-page {
+    .showcase-bar {
+        background-color: #004A6B;
+        height: 75px;
+        margin-top: 100px;
+    }
+    .showcase {
+        text-align: center;
+        height: 500px;
+        background: url('../image/slideshow.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        .showcase-title {
+            color: #fff;
+            background: rgba(0,0,0,.5);
+            margin-top: 245px;
+            text-align: left;
+            width: 60%;
+            h1 {
+                padding: 20px;
+            }
+        }
+    }
+    .introduction {
+        height: 40%;
+        .description {
+            text-align: center;
+            font-size: 14pt;
+            color: #6692a6;
+            font-weight: bold;
+            margin: 40px;
+        }
+        .intro {
+            text-align: center;
+            margin-bottom: 20px;
+            h2 {
+                font-size: 28px;
+                background-color: #004A6B;
+                line-height: 50px;
+                color: #fff;
+                margin: 0px;
+            }
+            .intro-text {
+                background-color: #6692a6;
+                color: #fff;
+                font-size: 10px;
+                padding: 12px;
+                height: 195px;
+            }
+            img {
+                width: 100%;
+                height: 275px;
+            }
+        }
+    }
+    .catalog {
+        margin-top: 20px;
+        text-align: center;
+        img {
+            width: 90%;
+        }
+        h2 {
+            color: red;
+            font-weight: 500;
+            margin-top: 60px;
+        }
+        p {
+            font-size: 14pt;
+            color: #6692a6;
+            margin-bottom: 22px;
+        }
+        a {
+            color: #337ab7;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 17px;
+            border: 1px solid;
+            padding: 10px;
+        }
+    }
+}
 
